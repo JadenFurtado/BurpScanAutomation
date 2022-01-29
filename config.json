@@ -1,0 +1,25 @@
+{
+    "sites" : [{
+        "scanURL" : "target.com",
+        "project" : "Burp_project.burp",
+        "apikey" : "APIKEY"
+      },
+      {
+        "scanURL" : "target.com",
+        "project" : "Burp_Project.burp",
+        "apikey" : "APIKEY"
+      }
+    ],
+    "burpConfigs" : [{
+        "memory" : "2048m",
+        "headless" : "true",
+        "java" : "/BurpSuitePro/jre/bin/java",
+        "burpJar" : "/BurpSuitePro/burpsuite_pro.jar",
+        "retry" : 5,
+        "logPath" : "#",
+        "logfileName" : "SimpleAutoBurp",
+        "loglevel" : "debug",
+        "ScanOutput" : "#"
+      }
+      ]
+}
